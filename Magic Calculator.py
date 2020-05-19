@@ -1,11 +1,11 @@
-import re
+import re                                   #Importing regex module
 print("Magic calculator")
-print("'quit' to exit\n")
+print("'quit' to exit\n")                   #Method to exit
 
 previous=0
 run=True
 
-def calc():
+def calc():                                 #Defining function calc for calculations
     global run
     global previous
     equation=""
